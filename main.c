@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * main - monty code interpreter
+ * main - entry into interpreter
  * @argc: argc counter
  * @argv: arguments
  * Return: 0 on success
@@ -54,9 +54,9 @@ int main(int argc, char *argv[])
 		}
 		else
 		{
-			if (op_func(token) != 0)
+			if (get_op_func(token) != 0)
 			{
-				op_func(token)(&h, line);
+				get_op_func(token)(&h, line);
 			}
 			else
 			{
