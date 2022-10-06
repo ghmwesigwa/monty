@@ -3,7 +3,6 @@
 > these special opcodes: `push`, `pall`, `pint`, `pop`, `swap`, `swap`, `add`, `nop`
 
 ### Description:
-* bytecode folder ----- holds Monty ByteCode files
 * monty.h ------------- holds all function prototypes for interpreter
 * main.c -------------- entry into program
 
