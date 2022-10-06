@@ -1,11 +1,11 @@
 #include "monty.h"
 
 /**
- * is_digit - checkes if passed variable is digit
- * @var: number to be checked
- *
- * Return: 1 if is digit, 0 otherwise
- */
+* is_digit - checkes if passed variable is digit
+* @var: number to be checked
+*
+* Return: 1 if is digit, 0 otherwise
+*/
 int is_digit(char *var)
 {
 	int i = 0;
@@ -23,10 +23,10 @@ int is_digit(char *var)
 
 
 /**
- * add_new_node - adds a node to a stack
- * @number: number value of the stack
- * Return: nothing
- */
+* add_new_node - adds a node to a stack
+* @number: number value of the stack
+* Return: nothing
+*/
 stack_t *add_new_node(int number)
 {
 	stack_t *new_node = malloc(sizeof(stack_t));
@@ -44,10 +44,10 @@ stack_t *add_new_node(int number)
 
 
 /**
- * stack_size - gets the size of a stack
- * @stack: pointer to the stack
- * Return: the size
- */
+* stack_size - gets the size of a stack
+* @stack: pointer to the stack
+* Return: the size
+*/
 int stack_size(stack_t *stack)
 {
 	int i = 0;
