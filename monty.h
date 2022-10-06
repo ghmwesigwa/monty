@@ -1,5 +1,5 @@
-#ifndef __MONTY_H__
-#define __MONTY_H__
+#ifndef MONTY_H
+#define MONTY_H
 
 #define  _POSIX_C_SOURCE 200809L
 
@@ -90,4 +90,4 @@ void free_stack(stack_t **stack);
 
 
 
-#endif /* __MONTY_H__ */
+#endif
